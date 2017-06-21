@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+   <string-array name="unit_array">
+    <item>Quintals</item>
+    <item>KGs</item>
+    <item>Grams</item>
+    <item>Dozen</item>
+    <item>Units</item>
+  </string-array>
+
+    <string-array name="rate_unit_array">
+        <item>Quintal</item>
+        <item>KG</item>
+        <item>Gram</item>
+        <item>Dozen</item>
+        <item>Unit</item>
+    </string-array>
+
+    <string-array name="newUnitKG_array">
+        <item>Quintals</item>
+        <item>KGs</item>
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="KG_array">
+        <item>KGs</item>
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="Grams_array">
+        <item>Grams</item>
+    </string-array>
+
+    <string-array name="Units_array">
+        <item>Units</item>
+    </string-array>
+
+
+    <string-array name="Dozens">
+        <item>Dozen</item>
+    </string-array>
+
+    <string-array name="quality_array">
+        <item>GOOD</item>
+        <item>AVERAGE</item>
+        <item>EXCELLENT</item>
+    </string-array>
+
+    <string-array name="filter_array">
+        <item>Grains</item>
+        <item>Cereals</item>
+        <item>Vegetables</item>
+        <item>Fruits</item>
+        <item>Legumes</item>
+    </string-array>
+    <string-array name="sort_array">
+        <item>Distance</item>
+        <item>Price:Low to High</item>
+        <item>Price:High to Low</item>
+    </string-array>
+</resources>
