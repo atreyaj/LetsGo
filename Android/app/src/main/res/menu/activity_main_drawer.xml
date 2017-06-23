@@ -13,6 +13,7 @@
          <item
             android:id="@+id/nav_enter"
             android:icon="@drawable/ic_card_travel_black_24dp"
+             android:visible="false"
             android:title="Entertainment" />
         <item
             android:id="@+id/nav_utility"
@@ -27,6 +28,8 @@
 
             <item
                 android:id="@+id/nav_changecity"
+                android:visible="false"
+
                 android:icon="@drawable/ic_settings_black_24dp"
                 android:title="Change Source/Destination" />
             <item

@@ -174,7 +174,7 @@ public class CityFragment extends Fragment {
     private void getCity() {
 
         // to fetch city names
-        String uri = Constants.apilink +
+        String uri = Constants.apilink1 +
                 "all-cities.php";
         Log.e("executing", uri + " ");
 
@@ -243,7 +243,12 @@ public class CityFragment extends Fragment {
                                 "      }\n" +
                                 "   ]\n" +
                                 "}";
-                        JSONObject ob = new JSONObject(resp);
+                        JSONObject ob = null;
+                        try {
+                            ob = new JSONObject(response.body().string());
+                        } catch (IOException e) {
+                            e.printStackTrace();
+                        }
                         JSONArray ar = ob.getJSONArray("cities");
                         pb.setVisibility(View.GONE);
                         FlipSettings settings = new FlipSettings.Builder().defaultPage().build();

@@ -130,7 +130,7 @@ public class LoginActivity extends AppCompatActivity implements View.OnClickList
                 .progress(true, 0)
                 .show();
 
-        String uri = Constants.apilink + "users/login.php?contact=" + num + "&password=" + pass;
+        String uri = Constants.apilink1 + "users/login.php?contact=" + num + "&password=" + pass;
         Log.e("executing", uri + " ");
 
         //Set up client

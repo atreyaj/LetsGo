@@ -156,9 +156,9 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
 
             fragment = new UtilitiesFragment();
             fragmentManager.beginTransaction().replace(R.id.inc, fragment).commit();
-        } else if (id == R.id.nav_changecity) {
-            Intent i = new Intent(MainActivity.this, SelectCity.class);
-            startActivity(i);
+//        } else if (id == R.id.nav_changecity) {
+//            Intent i = new Intent(MainActivity.this, SelectCity.class);
+//            startActivity(i);
 
         } else if (id == R.id.nav_emergency) {
             fragment = new EmergencyFragment();

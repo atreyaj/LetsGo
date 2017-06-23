@@ -56,7 +56,7 @@ public class BusList extends AppCompatActivity implements OnDateSetListener, Tim
 
     private String source;
     private String dest;
-    private String dates = "17-October-2015";
+    private String dates = "28-June-2017";
 
     private Handler             mHandler;
     private SharedPreferences   sharedPreferences;

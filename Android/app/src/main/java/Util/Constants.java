@@ -24,7 +24,7 @@ public class Constants {
     public static final String DESTINATION_CITY_LAT = "destination_city_lat";
     public static final String SOURCE_CITY_LON = "source_city_lon";
     public static final String DESTINATION_CITY_LON = "destination_city_lon";
-
+    public static final String apilink = "http://prabhakargupta.com/travel-mate/";
     public static String PLAY_LIST_VERYHAPPY = "UCBkNpeyvBO2TdPGVC_PsPUA";
     public static String PLAY_LIST_HAPPY = "UCKEXu8aCjrudFNx2jq9FfQw";
     public static String PLAY_LIST_NORMAL = "UCtKpbKXvPKCIplRvJsYEPLg"; //njxcbiucuew
@@ -50,8 +50,13 @@ public class Constants {
 
     public static String userid = "USERID";
     public static String servicetype = "servicetype";
-    public static final String apilink = "http://prabhakargupta.com/travel-mate/";
-//    public static final String apilink = "http://www.travelmate.16mb.com/";
+
+
+
+
+
+
+    public static final String apilink1 = "http://www.travelmate.16mb.com/";
     public static final String maps_key = "AIzaSyBgktirlOODUO9zWD-808D7zycmP7smp-Y";
 
 }
